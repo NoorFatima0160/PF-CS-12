@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// svoid upper(int rows);
+
 void lower(int rows);
 main()
 {
@@ -8,26 +8,10 @@ main()
     int row;
     cout << " enter number of rows : ";
     cin >> row;
-    // upper(row);
+    
     lower(row);
 }
-/*void upper(int rows)
-{
-    int i, z = 0;
-    for (int n = rows; n >= 1; n--)
-    {
-        z++;
-        for (i = n; i >= 1; i--)
-        {
-            cout << " ";
-        }
-        for (int s = 1; s <= z; s++)
-        {
-            cout << "*";
-        }
-        cout << endl;
-    }
-}*/
+
 
 void lower(int rows)
 {
