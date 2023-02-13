@@ -4,7 +4,7 @@
 using namespace std;
 main()
 {
-    int number[10];
+    int n, number[10];
     for(int i=0;i<10;i++){
     cout << " enter "<<i+1 <<" element : ";
     cin>>number[i];
@@ -14,9 +14,9 @@ main()
     }
 
      for(int i=0;i<=10;i++){
-    
+          i=n;
 
-    cout << i<<" number of array is : " << number[i] << endl;
+    cout << n+1<<" number of array is : " << number[i] << endl;
    
     }
     

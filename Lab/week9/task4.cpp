@@ -4,8 +4,8 @@
 using namespace std;
 main()
 {
-    int number[4];
-    for(int i=0;i<=4;i++){
+    int number[5];
+    for(int i=0;i<5;i++){
     cout << " enter "<<i+1 <<" element : ";
     cin>>number[i];
    
